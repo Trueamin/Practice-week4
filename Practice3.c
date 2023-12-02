@@ -12,13 +12,13 @@ int main(){
         printf("%d",num1 + num2);
     }
     else if(operate == '-'){
-        printf("%d",num1 * num2);
+        printf("%d",num1 - num2);
     }
     else if(operate == '*'){
         printf("%d",num1 * num2);
     }
     else if(operate == '/'){
-        printf("%d",num1 * num2);
+        printf("%d",num1 / num2);
     }
     else {
         printf("Invalid Operator");
